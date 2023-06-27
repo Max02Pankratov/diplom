@@ -1,0 +1,15 @@
+.btn {
+    width: 90px;
+    height: 30px;
+    background: chartreuse;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+}
+
+.my_div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}

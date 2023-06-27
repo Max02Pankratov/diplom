@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Парсер HTML",
+  "version": "1.0",
+  "description": "Плагин для парсинга HTML-кода страницы",
+  "permissions": [
+    "clipboardWrite",
+    "*://*.hh.ru/*"
+  ],
+  "host_permissions": [
+    "clipboardWrite"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.hh.ru/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ]
+    }
+  ]
+}
